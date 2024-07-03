@@ -10,3 +10,9 @@ describe('countRegNumber tests...', function() {
         (regCheck('FGT 123 MM', 'MP'), false);
     });
 });
+describe('countRegNumber tests...', function() {
+    it('..should return  that can check if a registration number is for NW, WC, registration plates', function() {
+        (regCheck('DC 55 YU NW', 'NW'), true);
+        (regCheck('5566 WC', 'WC'), true);
+         });
+});

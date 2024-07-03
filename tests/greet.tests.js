@@ -10,4 +10,12 @@ describe('this test shows...' , function(){
     });
 
 });
+describe('this test shows...' , function(){
+    it('..the names of the friends i want to greet' , function(){
+        (greet("Bianca,Lwandle,Junior"))
+
+        
+    });
+
+});
 

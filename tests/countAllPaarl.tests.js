@@ -6,3 +6,12 @@ describe('countAllPaarl tests...', function() {
     
     });
 });
+
+describe('countAllPaarl tests...', function() {
+    it('..should return registration number "CA"', function() {
+        var fromPaarl = isFrom('CA 98912', 'CA'); //returns true
+
+        var fromBellville = isFrom('CA 98912', 'CA'); //returns false
+    
+    });
+});

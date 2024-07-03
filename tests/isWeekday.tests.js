@@ -9,3 +9,9 @@ describe('isWeekday function tests...', function() {
         (isWeekday('Friday'), true);
     });
 });
+describe('isWeekday function tests...', function() {
+    it('..It should return the day Saturday"', function() {
+        (isWeekday('Saturday'), false);
+        
+    });
+});

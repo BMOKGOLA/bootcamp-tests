@@ -4,3 +4,9 @@ describe('regCheck function tests...', function() {
         (isFromBellville('CJ 123'), false);
     });
 });
+
+describe('regCheck function tests...', function() {
+    it('..should return true for a registration number starting with only "CJ"', function() {
+        (isFromBellville('CJ 123'), true);
+    });
+});
