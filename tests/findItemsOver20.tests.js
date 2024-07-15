@@ -76,9 +76,6 @@ describe(' findItemsOver20 function tests...', function() {
 
         
     });
-});
- 
-describe(' findItemsOver20 function tests...', function() {
     it('..It should return the findItemsunder20 string"', function() {
         var itemList = [
             {name : 'apples', qty : 10},

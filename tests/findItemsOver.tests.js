@@ -36,9 +36,6 @@ describe(' findItemsOver function tests...', function() {
 
         
     });
-});
- 
-describe(' findItemsOver function tests...', function() {
     it('..It should return the quantity of apples and bananas"', function() {
         var itemList = [
             {name : 'apples', qty : 10},

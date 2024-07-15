@@ -6,8 +6,6 @@ describe('countAllFromTown tests...', function() {
         assert.equal(regCount, 1);
 
     });
-});
-describe('countAllFromTown tests...', function() {
     it('..should return countRegNumber"CB"', function() {
         var regCount = countRegNumber('CB 182736,CY 523519,CJ 812328')
         assert.equal(regCount, 3);

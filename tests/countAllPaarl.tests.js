@@ -5,9 +5,7 @@ describe('countAllPaarl tests...', function() {
         var fromBellville = isFrom('CJ 98912', 'CY'); //returns false
     
     });
-});
 
-describe('countAllPaarl tests...', function() {
     it('..should return registration number "CA"', function() {
         var fromPaarl = isFrom('CA 98912', 'CA'); //returns true
 

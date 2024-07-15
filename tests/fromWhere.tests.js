@@ -6,9 +6,7 @@ describe('fromWhere tests...', function() {
         (fromWhere('ZN 568593'), 'Some other place!');
 
     });
-});
 
-describe('fromWhere tests...', function() {
     it('..should return Some other place!', function() {
         (fromWhere('ZN 568593'), 'Some other place!');
 

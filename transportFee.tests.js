@@ -10,9 +10,7 @@ describe('transportFee function tests...', function() {
 
        
     });
-});
 
-describe('transportFee function tests...', function() {
     it('..It should returns the R10"', function() {
         (transportFee('afternoon'), 'R10');
 

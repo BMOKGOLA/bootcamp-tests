@@ -20,8 +20,7 @@ describe('mostProfitableDepartment tests...', function() {
         
 
     });
-});
-describe('mostProfitableDepartment tests...', function() {
+
     it('..It should return the mostProfitableDAY"', function() {
         var salesData = [
             {department : 'hardware', sales : 4500, day : 'Monday'},
